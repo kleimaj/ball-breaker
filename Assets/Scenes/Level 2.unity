@@ -826,6 +826,36 @@ PrefabInstance:
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 651776930}
+    - target: {fileID: 3451478950210822249, guid: e9612e577a36075408feeb5feefb83df,
+        type: 3}
+      propertyPath: ballSounds.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451478950210822249, guid: e9612e577a36075408feeb5feefb83df,
+        type: 3}
+      propertyPath: ballSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 21ed783943a45d24dab295da8e89bc6b, type: 3}
+    - target: {fileID: 3451478950210822249, guid: e9612e577a36075408feeb5feefb83df,
+        type: 3}
+      propertyPath: ballSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 34c79b65bbdd9cb479fbc94a7c7d08d6, type: 3}
+    - target: {fileID: 3451478950210822249, guid: e9612e577a36075408feeb5feefb83df,
+        type: 3}
+      propertyPath: ballSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: b7a57bb3ae178d743a42897e593faa6d, type: 3}
+    - target: {fileID: 3451478950210822249, guid: e9612e577a36075408feeb5feefb83df,
+        type: 3}
+      propertyPath: ballSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1d69882c6b379724bb601ed83a064683, type: 3}
+    - target: {fileID: 3451478950210822249, guid: e9612e577a36075408feeb5feefb83df,
+        type: 3}
+      propertyPath: ballSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: a7551ba0431f6cf43a48dc4fbcbe00ee, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9612e577a36075408feeb5feefb83df, type: 3}
 --- !u!1001 &580105279
@@ -2098,7 +2128,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 34c79b65bbdd9cb479fbc94a7c7d08d6, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
