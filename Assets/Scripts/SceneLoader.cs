@@ -11,7 +11,7 @@ public class SceneLoader : MonoBehaviour {
     }
     public void RestartGame() {
         SceneManager.LoadScene(0);
-        FindObjectOfType<GameStatus>().DestroySelf();
+        FindObjectOfType<GameSession>().DestroySelf();
     }
     public void Quit() {
         Application.Quit();
